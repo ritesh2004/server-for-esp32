@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Home() {
 
   const sendMail = async () =>{
-    const res = await fetch('http://localhost:3000/api/send/',{
+    const res = await fetch('https://server-for-esp32.vercel.app/api/send/',{
       method:'POST',
       headers:{
         'content-type':'application/json'

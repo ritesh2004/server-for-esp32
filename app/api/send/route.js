@@ -28,7 +28,7 @@ const POST = async (req) =>{
       to : 'rtshprmnk@gmail.com',
       subject : subject,
       html:`
-        <h2 style={'color':'blue'}>${body}</h2>
+        <h2 style="color: blue;">${body}</h2>
       `
     }
 
