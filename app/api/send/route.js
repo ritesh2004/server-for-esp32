@@ -25,7 +25,7 @@ const POST = async (req) =>{
       });
 
     const mailOptions = {
-      from : 'jeetprmnk29@gmail.com',
+      from : 'anonymousmsgofficial@gmail.com',
       to : 'rtshprmnk@gmail.com',
       subject : subject,
       html:`
