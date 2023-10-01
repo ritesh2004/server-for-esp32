@@ -3,6 +3,7 @@ import nodemailer from "nodemailer";
 
 const POST = async (req) =>{
     try {
+      console.log("Called")
       const {subject,body} = await req.json();
       // console.log(det)
       const transporter = nodemailer.createTransport({
@@ -10,7 +11,7 @@ const POST = async (req) =>{
         port:587,
         secure:false,
         auth:{
-            user:'jeetprmnk29@gmail.com',
+            user:'anonymousmsgofficial@gmail.com',
             pass: process.env.NEXT_EMAIL_PASSWORD
         }
     })
